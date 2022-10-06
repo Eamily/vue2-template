@@ -1,15 +1,15 @@
 {
   "name": "vue2-ts-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "preversion":"git checkout dev && git pull && git checkout main",
-    "version":"conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "postversion":"git push && git checkout dev && git merge main && git checkout main"
+    "preversion": "git checkout dev && git pull && git checkout main",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "postversion": "git push && git checkout dev && git merge main && git checkout main"
   },
   "dependencies": {
     "element-ui": "2.15.6",
